@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Teko:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bcolor: #A0AECD;
+    --hover :   #F8F8F8 ;
+}
+
+body{
+    background-color: #052342;
+}
+
+#parent {
+    font-family: "Teko", sans-serif;
+    font-style: normal;
+    border: 2px solid black;
+    border-radius: 5%;
+    margin: 5vh;
+    padding: 3vh;
+    width: 35vw;
+    height: 53vh;
+    position: relative;
+    top: 109px;
+    left: 33%;
+    background-color: var(--bcolor);
+}
+
+/* : 18vw;
+    height: 45vh; */
+.heading {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+#username {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+#password {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+#forget {
+    position: relative;
+    text-decoration: underline;
+    top: 30px;
+    left: 60px;
+}
+
+#signup {
+    position: relative;
+    text-decoration: underline;
+    top: 15px;
+    left: 60px;
+
+}
+
+/* login  */
+span div {
+
+    position: relative;
+    top: 25%;
+    /* 9 */
+    left: 1%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 11px;
+    border-radius: 20px
+}
+
+#usname,
+#pass {
+    position: relative;
+    left: 5px;
+}
+
+span:hover , span div:hover{
+    background-color: var(--hover);
+}
